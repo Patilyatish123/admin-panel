@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Admin Panel
 
-## Getting Started
+An admin dashboard built with **Next.js**, designed for secure login and session management.
 
-First, run the development server:
+## 🔐 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Admin login with OTP verification
+- Auth token stored securely in **cookies**
+- Token automatically **expires after 1 hour**
+- Protected routes for admin dashboard
+- Clean and responsive UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+👉 [Admin Panel - Live on Vercel](https://admin-panel-ruddy-phi.vercel.app/admin/login)
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 📂 GitHub Repository
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+👉 [View Code on GitHub](https://github.com/Patilyatish123/admin-panel)
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- Next.js
+- React
+- Tailwind CSS
+- Node.js (API)
+- Mock APIs (for OTP simulation)
+- Cookies for session handling
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ How to Use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+1. Clone the repo  
+   `git clone https://github.com/Patilyatish123/admin-panel.git`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies  
+   `npm install`
 
-## Deploy on Vercel
+3. Run the project  
+   `npm run dev`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## ✍️ Author
+
+- Yatish Patil
